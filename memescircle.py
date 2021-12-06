@@ -36,12 +36,12 @@ class vibecircleMod(loader.Module):
         await message.delete()
         await message.client.send_file(message.to_id, result.messages[0].media)
 
-    async def krugokcmd(self, message):
+    async def snthcmd(self, message):
         """
         Рандомные мемы из @repomem 
         """
         await message.edit("<b>Лови</b>")
-        chat = '@memsheroes'
+        chat = '@ne_sirozhka'
         result = await message.client(functions.messages.GetHistoryRequest(
         peer=chat,
         offset_id=0,
