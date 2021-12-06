@@ -17,12 +17,12 @@ class vibecircleMod(loader.Module):
         self._db = db
         self._client = client
         self.me = await client.get_me()
-    async def krugcmd(self, message):
+    async def memzcmd(self, message):
         """
         Рандомные мемы из @vibe_circle
         """
-        await message.edit("<b>ПУK!!!</b>")
-        chat = '@vibe_circle'
+        await message.edit("<b>КИДАЮ БАЯН!</b>")
+        chat = '@fullvidss'
         result = await message.client(functions.messages.GetHistoryRequest(
         peer=chat,
         offset_id=0,
