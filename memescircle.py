@@ -40,8 +40,8 @@ class vibecircleMod(loader.Module):
         """
         Рандомные мемы из @repomem 
         """
-        await message.edit("<b>Лови</b>")
-        chat = '@ne_sirozhka'
+        await message.edit("<b>КУЗЯ ПИДОРАС</b>")
+        chat = '@tadezpezy'
         result = await message.client(functions.messages.GetHistoryRequest(
         peer=chat,
         offset_id=0,
